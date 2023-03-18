@@ -3,6 +3,7 @@ import { Box } from 'components/Box';
 import { UserButton } from '../UserButton';
 import { messageImg } from './img';
 import { Element, Img, Line, LogoGoIt, Text, UserPhotoWrapper } from './UserCard.styled';
+import { numberFormatting } from 'helpers';
 
 type PropsUserCard = {
   id: number;
@@ -20,6 +21,8 @@ export const UserCard: FC<PropsUserCard> = ({ followers, id, avatar, tweets }) =
   useLayoutEffect(() => {
     localStorage.setItem(id.toString(), JSON.stringify(getAction));
   }, [getAction, id]);
+
+  const formatToFollowers = numberFormatting(getAction ? followers + 1 : followers);
   return (
     <Element>
       <Box pt="28px" pl="38px" pr="38px" pb="18px">
@@ -42,7 +45,7 @@ export const UserCard: FC<PropsUserCard> = ({ followers, id, avatar, tweets }) =
         flexDirection="column"
       >
         <Text>{tweets} tweets</Text>
-        <Text>{getAction ? followers + 1 : followers} Followers</Text>
+        <Text>{formatToFollowers} Followers</Text>
         <UserButton isAction={getAction} setAction={setGetAction} id={id} />
       </Box>
     </Element>
