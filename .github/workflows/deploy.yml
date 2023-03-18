@@ -13,9 +13,9 @@ jobs:
 
       - name: Install, lint, build 🔧
         run: |
-          yarn install
-          yarn run lint:js
-          yarn run build
+          yarn
+          yarn lint:js
+          yarn build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
