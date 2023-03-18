@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cards-goit/static/css/main.ca23715c.css",
-    "main.js": "/cards-goit/static/js/main.2c5d90b6.js",
+    "main.js": "/cards-goit/static/js/main.a8c45f96.js",
     "static/media/messagesImg.png": "/cards-goit/static/media/messagesImg.032662a2a907475127d7.png",
     "static/media/goItLogo.svg": "/cards-goit/static/media/goItLogo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/cards-goit/index.html",
     "main.ca23715c.css.map": "/cards-goit/static/css/main.ca23715c.css.map",
-    "main.2c5d90b6.js.map": "/cards-goit/static/js/main.2c5d90b6.js.map"
+    "main.a8c45f96.js.map": "/cards-goit/static/js/main.a8c45f96.js.map"
   },
   "entrypoints": [
     "static/css/main.ca23715c.css",
-    "static/js/main.2c5d90b6.js"
+    "static/js/main.a8c45f96.js"
   ]
 }
