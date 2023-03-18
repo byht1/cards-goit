@@ -16,6 +16,9 @@ export const WrapperContainer = styled.div<TMarginAndPaddingProps>`
     padding-right: 32px;
     width: 768px;
   }
+  @media (min-width: 878px) {
+    width: 878px;
+  }
   @media (min-width: 1440px) {
     padding-left: 16px;
     padding-right: 16px;

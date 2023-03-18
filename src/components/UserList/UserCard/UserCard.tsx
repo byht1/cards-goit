@@ -1,5 +1,5 @@
-import { Box } from 'components/Box';
 import React, { FC, useLayoutEffect, useState } from 'react';
+import { Box } from 'components/Box';
 import { UserButton } from '../UserButton';
 import { messageImg } from './img';
 import { Element, Img, Line, LogoGoIt, Text, UserPhotoWrapper } from './UserCard.styled';
