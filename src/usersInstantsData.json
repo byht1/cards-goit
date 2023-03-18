@@ -1,0 +1,72 @@
+[
+  {
+    "id": 4911812,
+    "user": "John Doe",
+    "tweets": 10,
+    "followers": 100500,
+    "avatar": "https://api.multiavatar.com/JohnDoe.png"
+  },
+  {
+    "id": 7713448,
+    "user": "Jane Smith",
+    "tweets": 7,
+    "followers": 800100,
+    "avatar": "https://api.multiavatar.com/JaneSmith.png"
+  },
+  {
+    "id": 5708237,
+    "user": "Bob Johnson",
+    "tweets": 15,
+    "followers": 700100,
+    "avatar": "https://api.multiavatar.com/BobJohnson.png"
+  },
+  {
+    "id": 1017439,
+    "user": "Alice Brown",
+    "tweets": 3,
+    "followers": 600100,
+    "avatar": "https://api.multiavatar.com/AliceBrown.png"
+  },
+  {
+    "id": 3061510,
+    "user": "Emily White",
+    "tweets": 25,
+    "followers": 550100,
+    "avatar": "https://api.multiavatar.com/EmilyWhite.png"
+  },
+  {
+    "id": 3774682,
+    "user": "Jack Black",
+    "tweets": 3,
+    "followers": 500100,
+    "avatar": "https://api.multiavatar.com/JackBlack.png"
+  },
+  {
+    "id": 4004697,
+    "user": "Linda Davis",
+    "tweets": 30,
+    "followers": 450100,
+    "avatar": "https://api.multiavatar.com/LindaDavis.png"
+  },
+  {
+    "id": 8980993,
+    "user": "Max Wilson",
+    "tweets": 13,
+    "followers": 400100,
+    "avatar": "https://api.multiavatar.com/MaxWilson.png"
+  },
+  {
+    "id": 2041293,
+    "user": "Oliver Taylor",
+    "tweets": 20,
+    "followers": 350100,
+    "avatar": "https://api.multiavatar.com/OliverTaylor.png"
+  },
+  {
+    "id": 2175851,
+    "user": "Charlie Green",
+    "tweets": 8,
+    "followers": 300100,
+    "avatar": "https://api.multiavatar.com/CharlieGreen.png"
+  }
+]
